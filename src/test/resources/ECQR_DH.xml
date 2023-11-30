@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ECQR_DH">
+  <test thread-count="5" name="ECQR_Instance_DH">
+    <classes>
+      <class name="Testcases_ECQR.ECQR_DH_RegEmp">
+		   <methods>
+			  <include name="LoginPage"></include>
+			  <include name="NewClient"></include>
+			  <include name="NewRequirement"></include>
+			  <include name="SearchRequirement"></include>
+			  <include name="AddNewCandidate"></include>
+			  <include name="SubmitCandAndReq"></include>
+			  <include name="OfferRequest"></include>
+			  <include name="OfferAccept"></include>
+			  <include name="Create_DirectHire"></include>
+			  <include name="DirectHireApproval"></include>
+			  <include name="ViewEmp_DH_Module"></include>	  
+		  </methods>
+		  </class>
+    </classes>
+  </test> <!-- ECQR_Instance_DH -->
+</suite> <!-- ECQR_DH -->

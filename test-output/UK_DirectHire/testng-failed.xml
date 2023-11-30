@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UK_DirectHire]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="UK_DH(failed)">
+    <classes>
+      <class name="TestCases_UK.UK_DirectHire_Employee">
+        <methods>
+          <include name="ViewEmp_DH_Module" invocation-numbers="0"/>
+          <include name="Create_DirectHire" invocation-numbers="0"/>
+          <include name="CloseBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestCases_UK.UK_DirectHire_Employee -->
+    </classes>
+  </test> <!-- UK_DH(failed) -->
+</suite> <!-- Failed suite [UK_DirectHire] -->

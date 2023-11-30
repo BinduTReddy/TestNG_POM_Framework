@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ECQR_DH]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ECQR_DH(failed)">
+    <classes>
+      <class name="Testcases_ECQR.ECQR_DH_RegEmp">
+        <methods>
+          <include name="ViewEmp_DH_Module" invocation-numbers="0"/>
+          <include name="CloseBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Testcases_ECQR.ECQR_DH_RegEmp -->
+    </classes>
+  </test> <!-- ECQR_DH(failed) -->
+</suite> <!-- Failed suite [ECQR_DH] -->

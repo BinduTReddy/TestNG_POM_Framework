@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ECQR_Emp]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ECQR_Temp_Emp(failed)">
+    <classes>
+      <class name="Testcases_ECQR.ECQR_RegEMP">
+        <methods>
+          <include name="CreateEmp_Page" invocation-numbers="0"/>
+          <include name="OBEmpPortal_Page" invocation-numbers="0"/>
+          <include name="ExternalEmpView_Page" invocation-numbers="0"/>
+          <include name="CloseBrowser"/>
+          <include name="openBrowser"/>
+          <include name="OB_EmpModule_Page" invocation-numbers="0"/>
+          <include name="BillPayRateChange" invocation-numbers="0"/>
+          <include name="HRApproval_Page" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Testcases_ECQR.ECQR_RegEMP -->
+    </classes>
+  </test> <!-- ECQR_Temp_Emp(failed) -->
+</suite> <!-- Failed suite [ECQR_Emp] -->

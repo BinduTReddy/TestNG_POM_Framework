@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UK_RegEmp">
+  <test thread-count="5" name="UK_Instance">
+    <classes>
+      <class name="TestCases_UK.UK_Employee">
+		  <methods>
+			<include name="LoginPage"></include>
+			<exclude name="ClientPage"></exclude>
+			<exclude name="RequirementPage"></exclude>
+			<include name="SearchReqPage"></include>
+			<include name="CandidatePage"></include>
+			<include name="Submit_NewCand"></include>
+			<include name="RecManager_Approval"></include>
+			<include name="Manager_Approval"></include>
+			<include name="OB_EmpPortal"></include>
+			<include name="OB_EmpModule_Page"></include>
+			<include name="Accept_Offer"></include>
+			<include name="HRApproval_Page"></include>
+			<include name="CreateEmp_Page"></include>
+			<include name="ExternalEmpView_Page"></include>
+			<include name="BillPayRateChange"></include>
+			<include name="Regular_Timesheet"></include>
+			
+		</methods>
+		</class>
+    </classes>
+  </test> <!-- UK_Instance -->
+</suite> <!-- UK_RegEmp -->

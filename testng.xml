@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Clinical_JC">
+  <test thread-count="5" name="Clinical_JC_Process">
+    <classes>
+      <class name="Testcases_US.US_Clinical_JC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

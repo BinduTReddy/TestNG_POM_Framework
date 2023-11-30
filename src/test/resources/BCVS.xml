@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BCVS_Emp">
+  <test thread-count="5" name="BCVS_Emp">
+    <classes>
+      <class name="Testcases_BCVS.BCVS_Employee"/>
+    </classes>
+  </test> <!-- BCVS_Emp -->
+</suite> <!-- BCVS_Emp -->

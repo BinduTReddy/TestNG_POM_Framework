@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NonClinical">
+  <test thread-count="5" name="NonClinical_Process">
+    <classes>
+      <class name="Testcases_US.US_NonClinical_Reg">
+		  <methods>
+			  <include name="LoginPage"></include>
+			  <exclude name="ClientPage"></exclude>
+			  <include name="RequirementPage"></include>
+			  <include name="SearchReqPage"></include>
+			  <include name="CandidatePage"></include>
+			  <include name="SubmitCandAndReq"></include>
+			  <include name="Submit_OfferRequested_Page"></include>
+			  <include name="Submit_OfferAccepted_Page"></include>
+			  <include name="InititiateOB_Page"></include>
+			  <include name="RecApproval_Page"></include>
+			  <include name="ManagerApproval_Page"></include>
+			  <include name="OBEmpPortal_Page"></include>
+			  <exclude name="BackGroundCheck_Sterling"></exclude>
+			  <include name="OB_EmpModule_Page"></include>
+			  <include name="HRApproval_Page"></include>
+			  <include name="CreateEmp_Page"></include>
+			  <include name="ExternalEmpView_Page"></include>
+			  <include name="BillPayRateChange"></include>
+			  <include name="Regular_Timesheet"></include>
+			  <include name="Reg_TimeSheetReport"></include>
+			  <include name="Regular_Invoice"></include>
+			  <include name="Regular_InvoiceApproval"></include>
+			  <include name="Run_Payroll"></include>			 
+			</methods>	
+		  </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- NonClinical -->

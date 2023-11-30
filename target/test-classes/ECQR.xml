@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ECQR_RegEmp">
+  <test thread-count="5" name="ECQR_Instance_RegEmp">
+    <classes>
+      <class name="Testcases_ECQR.ECQR_RegEMP">
+		   <methods>
+			  <include name="LoginPage"></include>
+			  <include name="ClientPage"></include>
+			  <include name="RequirementPage"></include>
+			  <include name="SearchReqPage"></include>
+			  <include name="CandidatePage"></include>
+			  <include name="SubmitCandAndReq"></include>
+			  <include name="Submit_OfferRequested_Page"></include>
+			  <include name="Submit_OfferAccepted_Page"></include>
+			  <include name="InititiateOB_Page"></include>
+			  <include name="RecApproval_Page"></include>
+			  <include name="ManagerApproval_Page"></include>
+			  <include name="OBEmpPortal_Page"></include>
+			  <include name="OB_EmpModule_Page"></include>
+			  <include name="HRApproval_Page"></include>
+			  <include name="CreateEmp_Page"></include>
+			  <include name="ExternalEmpView_Page"></include>
+			  <include name="BillPayRateChange"></include>
+			 
+		  </methods>
+		  </class>
+    </classes>
+  </test> <!-- ECQR_Instance_RegEmp -->
+</suite> <!-- ECQR_RegEmp -->

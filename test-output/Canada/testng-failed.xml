@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Canada]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Canada_T4(failed)">
+    <classes>
+      <class name="TestCases_Canada.Canada_Employee">
+        <methods>
+          <include name="BillPayRateChange" invocation-numbers="0"/>
+          <include name="Regular_Invoice" invocation-numbers="0"/>
+          <include name="CloseBrowser"/>
+          <include name="openBrowser"/>
+          <include name="Reg_TimeSheetReport" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases_Canada.Canada_Employee -->
+    </classes>
+  </test> <!-- Canada_T4(failed) -->
+</suite> <!-- Failed suite [Canada] -->
